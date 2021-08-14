@@ -1,9 +1,9 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  timeout: 86400s
+  timeout: 21600s
   args: [ 'build', '-t', 'gcr.io/qwiklabs-gcp-03-48657acae373/dockerfile', '.' ]
   timeout: 86400s
-timeout: 86400s
+timeout: 21600s
 
 options:
   pool:
