@@ -1,10 +1,10 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   timeout: 86400s
-  args: [ 'build', '-t', 'gcr.io/qwiklabs-gcp-03-ec190e42a625/dockerfile', '.' ]
+  args: [ 'build', '-t', 'gcr.io/qwiklabs-gcp-02-82276867294e/dockerfile', '.' ]
   timeout: 86400s
 timeout: 86400s
 
 options:
   pool:
-    name: 'projects/qwiklabs-gcp-03-ec190e42a625/locations/us-west3/workerPools/6666666666'
+    name: 'projects/qwiklabs-gcp-02-82276867294e/locations/us-west3/workerPools/7'
